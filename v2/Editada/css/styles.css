@@ -1,0 +1,59 @@
+ /* General styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #585656;
+  }
+
+  /* Header */
+  header {
+    background-color: rgb(216, 34, 186);
+    color: rgb(218, 70, 205);
+    padding: 1rem;
+    font-family: "Oswald";
+  }
+  p{
+    color: pink;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  header a {
+    color: rgb(155, 87, 87);
+  }
+
+  /* Movie card */
+  .movie-card {
+    background-color: grey;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Oswald";
+  }
+
+  .movie-card img {
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.267);
+  }
+
+  .movie-card p {
+    padding: 1rem;
+    
+  }
+
+  /* Main content */
+  h1, h5 {
+    margin-bottom: 1.5rem;
+    font-family: "Oswald";
+    color: pink;
+    
+  }
+
+  /* Footer */
+  footer {
+    background-color: #585656;
+    border-top: 1px solid #ddd;
+    padding: 1rem;
+  }
+  @font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+  }
