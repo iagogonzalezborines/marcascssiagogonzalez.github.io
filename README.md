@@ -2,7 +2,8 @@
    
    [v0](./v0/index.html)
    [v1](./v1/index.html)
-   [v2](./v2/index.html)
+   [v2.1](./v2/Original/index.html)
+   [v2.2](./v2/Editada/index.html)
    
    
    
