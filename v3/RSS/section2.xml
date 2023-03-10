@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>IMDb</title>
+  <link>https://www.imdb.com/?ref_=nv_home</link>
+  <description>IMDb (an abbreviation of Internet Movie Database). is an online database of information related to films, television series, podcasts, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews.</description>
+  <item>
+    <title>Fight Club News</title>
+    <link>https://www.slashfilm.com/1212100/david-finchers-fight-club-was-a-warning-not-a-call-to-arms/</link>
+    <description>David Fincher's Fight Club Was A Warning, Not A Call To Arms/</description>
+    <pubDate>Fri, 03 March 2023 10:00 EST</pubDate>
+  </item>
+</channel>
+</rss>

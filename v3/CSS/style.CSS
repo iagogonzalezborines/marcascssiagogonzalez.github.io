@@ -1,0 +1,370 @@
+
+body {
+  background-color: #1f1f1f; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-origin: initial; 
+}
+
+
+
+h1{
+  color: #f4acb7;
+  font-family: "Vertigo";
+  font-weight: normal;
+  font-size: 300%;
+}
+
+h2, h3, h4, h5, h6  {
+  color: #f4acb7;
+  font-family: "Quicksliver";
+}
+
+
+p {
+  color: #d0b8ac;
+  font-size: small;
+  font-weight: bold;
+  font-family: "Oswald";
+}
+
+
+dl {
+  color: #f4acb7;
+  font-family: "Oswald";
+}
+a{
+  font-family: "Oswald";
+  color: pink;
+  text-decoration: none;
+}
+
+.movie-list{
+  color: #d0b8ac;
+  font-family: 'Oswald';
+}
+
+.title-container {
+  background-color: #3d3a33; 
+  width: 80%; 
+  padding: 20px; 
+  text-align: center; 
+  margin: auto;
+  border-radius: 10px;  box-shadow: 0px 0px 10px #f4acb7; 
+  top: 400rem;
+}
+.container {
+  display: flex;
+  background-color: #585858; 
+  padding: 20px; 
+  margin: 20px; 
+  border-radius: 10px; 
+}
+.container-director {
+  background-color: #585858; 
+  padding: 10px; 
+  margin: 20px; 
+  border-radius: 5px; 
+}
+.container-director img{
+  width: 150px ;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.rating-section {
+  text-align: center; 
+  margin: auto; 
+}
+p.quote{
+  text-justify: right;
+  color: white;
+}
+
+.character-container img {
+  width: 150px; 
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 15px; 
+}
+
+.character-container img:hover {
+  filter: brightness(1.2);
+  transition: transform 0.5s;
+  transform: scale(1.5); 
+}
+.character-grid{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  background-color: #494545;
+  padding: 20px; 
+  letter-spacing: 1.2px;
+  border-radius: 10px;
+
+}
+.character-grid > div {
+  background-color: #585858;
+  padding: 20px; 
+  border-radius: 10px; 
+}
+.character-grid img {
+  width: 150px;
+  height: 200px; 
+  border-radius: 10px; 
+}
+.interview{
+  background-color: #474b49;
+  height: 19rem;
+  width: 25rem;
+  position: absolute;
+  top: 100rem;
+  
+  border: #f4acb7;
+  font-family: "Oswald" ;
+}
+.philosophy{
+  background-color: #474b49;
+  height: 19rem;
+  width: 25rem;
+  font-family: "Oswald";
+  position: absolute;
+  top: 124.5rem;
+  
+}
+.facts{
+  background-color: #474b49;
+  height: 19rem;
+  width: 25rem;
+  font-family: "Oswald";
+  position: absolute;
+  top: 149rem;
+}
+
+.main-container {
+  width: 55rem;
+  border-radius: 1px;
+  object-fit: cover;
+  height: fit-content;
+  color: #e9c5ca;
+}
+.container-media {
+  background-color: #3d3a33;
+  padding: 10px; 
+  margin: 20px; 
+  border-radius: 5px;
+  letter-spacing: 2px; 
+}
+.video-container {
+  background-color: #474b49;
+  height: 12.5rem;
+  width: 25rem;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 10rem;  
+}
+.container-img {
+  background-color: rgba(148, 151, 137, 0.774); 
+  padding: 10px; 
+  border-radius: 5px;
+  letter-spacing: 2px; 
+}
+
+img.media-img {
+  width: 300px;
+  height: 200px; 
+}
+img.media-img:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
+
+#menu {
+  background-color: #f4acb7;
+  padding: 20px; 
+  text-align: center; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px #8c8c8c; 
+  
+}
+.menu-container {
+  position: -webkit-sticky;
+  top: 0; 
+  left: 0; 
+  z-index: 10;
+  background-color: #f4acb7; 
+  padding: 10px;
+}
+audio {
+  background-color: #b6b6b6; /* Set the background color of the audio player */
+  border: 1px solid #f4acb7; /* Add a border to the audio player */
+  padding: 10px; /* Add padding to the audio player */
+  border-radius: 5px; /* Add rounded corners to the audio player */
+}
+.audio:hover {
+  background-color: #d0b8ac; /* Change background color on hover */
+  color: #b6b6b6; /* Change font color on hover */
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  background-color: #f4acb7; /* Change the background color of the play/pause button */
+  border: none; /* Remove the border from the play/pause button */
+  border-radius: 15px;
+}
+
+audio::-webkit-media-controls-current-time,
+audio::-webkit-media-controls-duration {
+  color: #f4acb7; /* Change the color of the current time and duration text */
+  border-radius: 15px;
+}
+
+audio::-webkit-media-controls-timeline {
+  background: #f4acb7; /* Change the background color of the progress bar */
+  border-radius: 15px;
+}
+
+
+#menu ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0; 
+}
+#menu li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: "Quicksliver";
+}
+#menu a {
+  color: #1f1f1f;
+  text-decoration: none; 
+  font-size: 1.2em;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  transition: all 0.2s ease-in-out; 
+}
+#menu a:hover {
+  background-color: #bbb5b5;
+}
+.menu li a {
+  color: #f4acb7;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: block;
+}
+
+.menu li a:hover {
+  background-color: #3d3a33;
+}
+
+.menu li a:active {
+  transform: translateX(20px);
+  transition: transform 0.3s ease-in-out;
+}
+#data {
+  background-color: #585858; 
+  padding: 20px;
+  margin: 20px; 
+  border-radius: 10px; 
+}
+
+table {
+  border: 1px solid #ccc;
+  font-family: "Quicksliver";
+  font-size: 14px; 
+  color: #fdd1ff;
+}
+
+td,
+th {
+  border: 1px solid #ddd; 
+  padding: 10px;
+}
+tr:hover {
+  background-color: #1be2a0;
+  color: #d90de4; 
+}
+.container-opinion {
+  background-color: #686868; 
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px; 
+}
+
+.opinion-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.opinion-input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.opinion-submit p.nombre {
+  font-family: "Oswald";
+  color: white;
+}
+
+label{
+  font-family: "Oswald";
+  color: #f4acb7;
+}
+input[type="submit"] {
+  background-color: rgb(223, 138, 152);
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  color: rgb(189, 47, 106);
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  transition: all 0.2s ease-in-out; 
+  font-family: "Vertigo";
+}
+.submit-button {
+  background-color: #ff69b4; 
+  padding: 10px; 
+  border-radius: 5px; 
+  transition: all 0.5s ease-in-out;
+  
+}
+.submit-button:hover {
+  transform: scale(1.1); 
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.director-list{
+  font-family: "Oswald";
+  color:#d0b8ac ;
+}
+
+
+@font-face {
+  font-family: "Quicksliver";
+  src: url("../fonts/Quicksilver.ttf");
+}
+
+@font-face {
+  font-family: "Vertigo";
+  src: url("../fonts/Vertigo.ttf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}

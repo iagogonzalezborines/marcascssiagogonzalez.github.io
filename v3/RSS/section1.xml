@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>20minutos</title>
+    <description>Canal de noticias.</description>
+    <link>https://www.20minutos.es</link>
+        <item>
+          <title>Todo lo que sabemos de 'The Killer', la nueva colaboración de David Fincher con Netflix</title>
+          <description>
+            Se trata de lo nuevo de David Fincher, un cineasta al que siempre hay que estar atento. Luego de estrenar Mank en Netflix, quien firmara La red social extendió su contrato con la plataforma, y el resultado es un film de intriga que protagoniza Michael Fassbender.
+        </description>
+          <link>https://www.20minutos.es/cinemania/noticias/todo-lo-que-sabemos-de-the-killer-la-nueva-colaboracion-de-david-fincher-con-netflix-5093374/</link>
+          <pubDate>Wed, 18 Jan 2023  17:13H EST</pubDate>
+        </item>
+  </channel>
+</rss>
